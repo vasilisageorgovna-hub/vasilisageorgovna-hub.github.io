@@ -1,0 +1,71 @@
+body{
+    background-color: black; color: aliceblue;  font-family: 'Ballet' ;   margin: 0;
+     font-family: 'Inter', sans-serif;
+  
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif; 
+}
+
+.header{
+    
+   text-align: center;
+   background-color: #171717 ;
+   padding: 8px;
+   font-size: large ;
+   border-radius: 16px;
+
+
+}
+
+.image-box {
+  text-align: center; 
+  padding-top: 80px;
+}
+
+.image-box img {
+  max-width: 400px;   
+  height: auto;       
+  display: inline-block; 
+  border-radius: 16px;
+}
+
+.btn{
+    background-color: transparent; border: 1px solid rgba(255, 255, 255, 0.304)  ; padding-left: 32px; padding-right: 32px; padding-bottom: 16px; padding-top: 16px; border-radius: 100px;
+    text-decoration: none; color: aliceblue; 
+    display: block;         /* делаем блочным */
+    width: fit-content;     /* ширина под текст */
+    margin: 20px auto 0;    /* центрируем за счёт auto */
+    text-align: center;  
+    margin-bottom: 80px;
+
+}
+
+.btn:hover{ background-color: aliceblue; color: black;}
+
+.section{
+background-color: #171717 ;
+padding: 40px; 
+border-radius: 16px;
+  max-width: calc(100% - 240px); /* ширина минус 120px слева и справа */
+  margin: 0 auto; 
+  margin-bottom: 16px;
+
+}
+
+.section2{
+    background-color: #171717 ;
+padding: 40px; 
+border-radius: 16px;
+  max-width: calc(100% - 240px); /* ширина минус 120px слева и справа */
+  margin: 0 auto; 
+margin-bottom: 80px;
+}
+
+footer{
+       text-align: center;
+   background-color: #171717 ;
+   padding: 8px;
+   border-radius: 16px;
+}
