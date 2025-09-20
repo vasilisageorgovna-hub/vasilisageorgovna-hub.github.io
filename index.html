@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 3: Table and Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  
+  <h1 id="grades-title">Student Grades</h1>
+
+  
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Subject</th>
+      <th>Grade</th>
+    </tr>
+    <tr>
+      <td>Aruzhan</td>
+      <td>Math</td>
+      <td>A</td>
+    </tr>
+    <tr class="highlight-row">
+      <td>Arman</td>
+      <td>Physics</td>
+      <td>B</td>
+    </tr>
+    <tr>
+      <td>Alina</td>
+      <td>Chemistry</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>Dias</td>
+      <td>Biology</td>
+      <td>C</td>
+    </tr>
+  </table>
+
+
+  <h2>Feedback Form</h2>
+  <form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="role">Role:</label><br>
+    <select id="role" name="role">
+      <option>Student</option>
+      <option>Teacher</option>
+      <option>Other</option>
+    </select><br><br>
+
+    <label>Do you like CSS?</label><br>
+    <input type="radio" name="like" value="yes"> Yes
+    <input type="radio" name="like" value="no"> No <br><br>
+
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments"></textarea><br><br>
+
+    <button type="submit" class="submit-btn">Submit</button>
+  </form>
+
+</body>
+</html>
