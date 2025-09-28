@@ -1,0 +1,38 @@
+body { 
+    font-family: Arial, sans-serif;margin: 0; background-color: black; color: #E3EBFF;
+}
+.header {
+    background:#0D00FF; color: #E3EBFF; text-align: center; padding: 20px; padding-top: 40px; padding-bottom: 40px; font-size: 32px;
+}
+.navbar {
+   background-color: rgba(227, 235, 255, 0.16); padding:20px; text-align:center; padding-top: 32px; padding-bottom: 32px;
+}
+.navbar a {
+  margin: 16px; text-decoration:none; color:#BBC3D7;
+}
+.navbar a:hover { color:#E3EBFF; }
+
+.sidebar {
+  float: left;
+  width: 12%; 
+  margin: 40px;
+  border: 1px solid #BBC3D7;
+  border-radius: 8px;
+  padding: 24px 16px;
+}
+
+.content {
+  float: left;
+  width: calc(100% - 25% - 160px);  
+  margin: 40px 40px 40px 0; 
+  border: 1px solid #BBC3D7;
+  border-radius: 8px;
+  padding: 24px 40px;
+  background: transparent;
+  text-align: left;
+}
+
+.footer {
+  clear:both; background:#0D00FF; 
+  text-align:center; padding:15px; margin-top:10px;
+}
